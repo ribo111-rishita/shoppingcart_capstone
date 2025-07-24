@@ -1,0 +1,117 @@
+body {
+    background-color: #fff0f6;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+  }
+  
+  .header-container {
+    background-color: #ffffff;
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  }
+  
+  .logo {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #222;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #d63384;
+    font-weight: 500;
+    font-size: 2rem;
+  }
+  
+  .nav-links a:hover {
+    color: #a61e4d;
+  }
+  
+  .product-section {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .product-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #d63384;
+  }
+  
+  .product-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  }
+  
+  .product-card {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+    transition: 0.3s;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .product-card img {
+    width: 100%;
+    border-radius: 1rem;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .product-card h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 0.5rem 0;
+  }
+  
+  .product-card p {
+    font-size: 0.95rem;
+    color: #555;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: #d63384;
+    margin: 0.5rem 0;
+  }
+ 
+  .logoutbtn{
+    background: none;
+    text-decoration: none;
+    color: #d63384;
+    font-weight: 500;
+    font-size: 2rem;
+  }
+  .logoutbtn:hover{
+    background-color: white;
+  }
+ 
+  
+  button {
+    background-color: #d63384;
+    color: #fff;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #a61e4d;
+  }
+  
